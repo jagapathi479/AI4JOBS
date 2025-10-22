@@ -1,0 +1,112 @@
+===============================================================
+CHATBOT SESSION EXAMPLE
+===============================================================
+
+$ python chatbot.py
+
+======================================================================
+🤖 JOB DESCRIPTION ANALYZER CHATBOT
+======================================================================
+
+Welcome! I can help you identify fake and real job descriptions.
+
+What I can do:
+  1. Analyze custom job descriptions
+  2. Show examples of fake job postings
+  3. Show examples of real job postings
+  4. Explain red flags in job scams
+
+Type 'help' for commands or 'quit' to exit.
+======================================================================
+
+💬 You: fake
+
+======================================================================
+📑 FAKE JOB EXAMPLES
+======================================================================
+
+1. Data Entry Specialist at Global Solutions Inc
+   Type: ❌ FAKE
+   Location: Work from anywhere!
+   Salary: $5000/week!!!
+   Description: URGENT! Make $5000/week working from home! No experience needed! Just send $99 for training...
+   Key Indicators: Too good to be true salary, Upfront payment required, Excessive exclamation marks
+
+2. Online Survey Taker at EZ Money Co
+   Type: ❌ FAKE
+   Location: Remote
+   Salary: $500 per day guaranteed!
+   Description: Earn $500 daily taking surveys! No skills needed! Work 2 hours a day! Send payment of $50 ...
+   Key Indicators: Unrealistic earnings, Registration fee required, Too easy claims
+
+3. Executive Assistant at Premium Enterprises
+   Type: ❌ FAKE
+   Location: Worldwide
+   Salary: $10,000/month GUARANTEED
+   Description: MAKE MONEY FAST!!! Be your own boss! $10,000/month working part-time! No interviews! No ex...
+   Key Indicators: Excessive caps and exclamation marks, Unrealistic income, Upfront fee
+
+4. Crypto Investment Manager at Blockchain Wealth
+   Type: ❌ FAKE
+   Location: Online
+   Salary: Unlimited earning potential!!!
+   Description: SECRET OPPORTUNITY! Triple your income in 30 days! Invest just $1000 and we'll make you ri...
+   Key Indicators: Investment scam red flags, Unrealistic promises, Urgency and scarcity tactics
+
+💬 You: tips
+
+🎯 TIPS FOR SPOTTING FAKE JOB POSTINGS:
+
+🚩 RED FLAGS:
+  • Requests for upfront payment (training fees, materials, etc.)
+  • Unrealistic salary promises ($500+/day for simple tasks)
+  • Excessive exclamation marks and ALL CAPS text
+  • Vague or generic company names
+  • 'Too good to be true' claims (no experience needed, guaranteed income)
+  • Urgency tactics (limited spots, act now)
+  • No interview process mentioned
+  • Poor grammar and unprofessional language
+
+✓ SIGNS OF LEGITIMATE JOBS:
+  • Specific job requirements and qualifications
+  • Realistic salary ranges
+  • Professional, detailed job descriptions
+  • Clear company information
+  • Standard application process
+  • Benefits package mentioned
+  • No upfront fees required
+
+💬 You: real
+
+======================================================================
+📑 REAL JOB EXAMPLES
+======================================================================
+
+1. Software Engineer at Tech Corp
+   Type: ✓ REAL
+   Location: San Francisco, CA
+   Salary: $80,000 - $120,000
+   Description: We are looking for a talented Software Engineer to join our team. You will work on develop...
+   Key Indicators: Clear requirements, Specific salary range, Professional description
+
+2. Marketing Manager at ABC Marketing Agency
+   Type: ✓ REAL
+   Location: New York, NY
+   Salary: $70,000 - $95,000
+   Description: Seeking experienced Marketing Manager to lead our digital marketing team. Responsibilities...
+   Key Indicators: Specific role description, Reasonable requirements, Professional language
+
+3. Senior Data Scientist at DataTech Solutions
+   Type: ✓ REAL
+   Location: Boston, MA
+   Salary: $110,000 - $150,000
+   Description: We're hiring a Senior Data Scientist to work on machine learning projects. You'll build pr...
+   Key Indicators: Specific technical requirements, Realistic salary, Detailed job description
+
+💬 You: quit
+
+👋 Thank you for using Job Description Analyzer! Stay safe!
+
+===============================================================
+END OF SESSION
+===============================================================
